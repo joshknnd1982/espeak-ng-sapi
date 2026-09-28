@@ -22,6 +22,12 @@ Download the latest release from the [Releases](../../releases) page.
 build_all.bat
 ```
 
+This branch builds espeak-ng from the `sapi-pdc` branch of
+https://github.com/joshknnd1982/espeak-ng, which adds Pennsylvania Dutch
+(`pdc`, Lancaster; `pdc-x-midwest`; `pdc-x-lehigh`). To build a different
+espeak-ng, set `ESPEAK_NG_GIT_REPOSITORY` (a URL or a local path) and
+`ESPEAK_NG_GIT_TAG` before running `build_all.bat`.
+
 **Requirements:**
 - Windows 10 or later
 - Visual Studio 2022+ or LLVM Clang-CL

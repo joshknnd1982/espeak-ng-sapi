@@ -55,8 +55,8 @@ function(suppress_espeak_warnings target_name)
     endif()
 endfunction()
 
-set(ESPEAK_NG_GIT_REPOSITORY "https://github.com/gozaltech/espeak-ng.git" CACHE STRING "Git repository (URL or local path) to fetch espeak-ng from")
-set(ESPEAK_NG_GIT_TAG "dev" CACHE STRING "Branch, tag or commit of espeak-ng to build")
+set(ESPEAK_NG_GIT_REPOSITORY "https://github.com/joshknnd1982/espeak-ng.git" CACHE STRING "Git repository (URL or local path) to fetch espeak-ng from")
+set(ESPEAK_NG_GIT_TAG "sapi-pdc" CACHE STRING "Branch, tag or commit of espeak-ng to build")
 
 FetchContent_Declare(
     espeak-ng
